@@ -1,7 +1,12 @@
 # Задача №1
 
 
-number = int(input("Enter your number: "))
+while True:
+    try:
+        number = int(input("Enter your number: "))
+        break
+    except ValueError:
+        print("Error: You must enter an integer!")
 
 if number > 0:
     print("The number is positive")
@@ -28,7 +33,12 @@ print(f"{new_string[-1]}\n")
 # Задача №4
 
 
-my_number = int(input("Enter your number: "))
+while True:
+    try:
+        my_number = int(input("Enter your number: "))
+        break
+    except ValueError:
+        print("Error: You must enter an integer!")
 
 if my_number % 2 == 0:
     print("The number is odd\n")
