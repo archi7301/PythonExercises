@@ -67,3 +67,4 @@ if my_word[-1] == 'ь' or my_word[-1] == 'ъ':
     print(f"The penultimate letter is {my_word[-2]}")
 else:
     print(f"The last letter is {my_word[-1]}")
+
