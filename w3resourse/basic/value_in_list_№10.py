@@ -1,4 +1,4 @@
-# Task №10. Write a Python program that checks whether a specified value is contained within a group of values.
+# Task №10. Write a Python program that checks whether a specified value is contained within a group of values (w3resource №25).
 
 
 def value_in_list(value, my_list):
